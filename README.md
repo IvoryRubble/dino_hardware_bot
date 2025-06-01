@@ -31,7 +31,7 @@ Components used:
 - Photoresistor: GL5516 ([Datasheet](https://github.com/IvoryRubble/dino_hardware_bot/blob/master/media/GL55%20Series%20Photoresistor%20datasheet.pdf)) 
 
 Scheme:  
-![](media/light_sensor_diagram.png)
+![](media/light_sensor_scheme.png)
 
 Photos:  
 (Led is not used in this project)  
