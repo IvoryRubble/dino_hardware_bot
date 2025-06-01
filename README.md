@@ -4,6 +4,11 @@ This code makes RPi Pico play [Dino](https://chrome-dino-game.github.io/) game f
 
 Demo:  
 
+
+## Additional photos
+
+
+
 ## Hardware
 
 - RPi Pico or other compatible board with [RP2040](https://www.raspberrypi.com/products/rp2040/) chip. ([YD-RP2040](https://github.com/initdc/YD-RP2040/blob/master/YD-2040-PIN.png) board was used for this project)  
@@ -15,17 +20,20 @@ Demo:
 ### [YD-RP2040](https://github.com/initdc/YD-RP2040/blob/master/YD-2040-PIN.png) board
 
 This board contains build-in button, led and NeoPixel led. You need to solder `VREF` and `RGB` jumpers on the board to make ADC and NeoPixel led work.   
+[YD-RP2040 Pinout](https://github.com/IvoryRubble/dino_hardware_bot/blob/master/media/YD-RP2040.png)
 
 ### DIY light sensor
 
 Light sensor uses resistor and photoresistor assembled to voltage divider.  
-Scheme:   
-
 Components used:  
 - Resistor: 20 kOhm  
-- Photoresistor: GL5516  
+- Photoresistor: GL5516 ([Datasheet](https://github.com/IvoryRubble/dino_hardware_bot/blob/master/media/GL55%20Series%20Photoresistor%20datasheet.pdf)) 
 
-Scheme:
+Scheme:  
+![](media/Light_sensor_diagram.png)
+
+Photos:  
+(Led is not used in this project)  
 
 
 ## Installation
@@ -51,4 +59,3 @@ After calibration control loop starts. RPi Pico plays Dino game automatically at
 To stop control loop press built-in button again.    
 To restart calibration press built-in button again.   
 
-## Additional photos
