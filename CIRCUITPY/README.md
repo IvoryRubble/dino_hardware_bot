@@ -1,0 +1,1 @@
+Copy this folder content to CIRCUITPY drive
