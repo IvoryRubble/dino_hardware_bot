@@ -2,14 +2,15 @@
 
 This code makes RPi Pico play [Dino](https://chrome-dino-game.github.io/) game from Chrome browser by reading screen with light sensor and sending key codes to PC.  
 
-Demo:  
+## Demo
+![](media/Dino_hardware_bot_demo_2x.gif)  
 
-
-## Additional photos
-
-
+https://youtu.be/3Do6O7bi3xY    
+https://vkvideo.ru/video-228936534_456239022  
 
 ## Hardware
+
+![](media/board_assembled.jpg)
 
 - RPi Pico or other compatible board with [RP2040](https://www.raspberrypi.com/products/rp2040/) chip. ([YD-RP2040](https://github.com/initdc/YD-RP2040/blob/master/YD-2040-PIN.png) board was used for this project)  
 - Analog light sensor, connect to pin 26 (A0)  
@@ -30,11 +31,11 @@ Components used:
 - Photoresistor: GL5516 ([Datasheet](https://github.com/IvoryRubble/dino_hardware_bot/blob/master/media/GL55%20Series%20Photoresistor%20datasheet.pdf)) 
 
 Scheme:  
-![](media/Light_sensor_diagram.png)
+![](media/light_sensor_diagram.png)
 
 Photos:  
 (Led is not used in this project)  
-
+![](media/lights_sensor_pinout.jpg)
 
 ## Installation
 
@@ -45,6 +46,7 @@ Photos:
 
 ## Usage
 
+![](media/light_sensor_positioning.jpg)    
 Launch [Dino](https://chrome-dino-game.github.io/) game in browser.   
 Place light sensor on the screen in approx. 3 cm to the right of dino on the white background.  
 Connect RPi Pico board to PC and open serial port.     
